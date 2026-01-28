@@ -18,9 +18,26 @@ body{
 .flex{
     display:flex ;
     justify-content: space-between;
-    gap: 30px;
-  margin: 20px;
+    gap: 10px;
+ 
 }
+.size{
+    border: none;
+    background-color: #e07b1f;
+    color: white;
+
+}
+.right-box .size h1{
+    color: white;
+    font-size: 50px;
+}
+li{
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
 /* Link styles */
 a {
     font-size: 22px;
@@ -342,8 +359,20 @@ nav {
 
 
 }
+.product-btn{
+
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    margin-top: 10px;
+    right: 0;
+    bottom: 0;
+}
 .product-btn a{
     color: whitesmoke;
+   
+
    
 } 
 .btnss{
@@ -354,6 +383,13 @@ nav {
      border: none;
      
 
+}
+.s{
+        padding: 10px 20px;
+     background-color: #e07b1f;
+     border-radius: 10px;
+     color: white;
+     border: none;
 }
 .rights{
     width: 100%;
@@ -370,6 +406,10 @@ nav {
 }
 .right-title h1{
        color: white;
+}
+.size{
+    display: flex;
+    justify-content: space-between;
 }
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -489,9 +529,10 @@ flex-direction: column;
           .btns{
             margin-bottom: 20px;   }
 .btnss {
-    position: fixed;
+   
+    
 bottom: 0;
-
+left: 0;
 color: white;
     
 }
@@ -506,8 +547,14 @@ color: white;
     padding: 10px 0;
 }
 
+}.size{
+   gap: 12px;
 }
 
+.size .h1zize{
+    color: white;
+    font-size: 30px;
+}
 @media (max-width: 1024px) and (min-width: 769px) {
     /* Tablet: 2 items per row */
     .item-image {
